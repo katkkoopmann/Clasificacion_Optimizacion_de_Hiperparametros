@@ -19,8 +19,10 @@ Este repositorio contiene un notebook que realiza un análisis exploratorio y pr
 ### 4. Análisis Visual
 - Gráfico de dispersión entre las variables `age` y `charges` para identificar patrones y valores atípicos.
 
-### 5. Modelado (pendiente o en desarrollo)
-- Se espera que el notebook incluya clasificación y optimización de hiperparámetros en futuras iteraciones.
+### 5. Modelado y Optimización
+- Entrenamiento de modelos de clasificación, incluyendo Random Forest y Gradient Boosting.
+- Optimización de hiperparámetros utilizando GridSearchCV y RandomizedSearchCV.
+- Evaluación del desempeño de los modelos utilizando métricas como precisión y F1-score.
 
 ## Requisitos
 
@@ -29,6 +31,7 @@ Este repositorio contiene un notebook que realiza un análisis exploratorio y pr
   - `pandas`
   - `numpy`
   - `matplotlib`
+  - `scikit-learn`
 
 ## Uso
 
@@ -53,7 +56,3 @@ El dataset contiene información sobre costos médicos y factores asociados:
 - **charges**: Costos médicos (variable objetivo).
 
 Tamaño: 1,338 filas y 7 columnas.
-
-## Autor
-
-Este proyecto fue desarrollado como parte de un ejercicio práctico para el análisis de datos y preparación de modelos predictivos.
